@@ -26,9 +26,8 @@ Create a directory to store the generated mask images. Replace mask_dir with you
 ```
 mask_dir = r'E:\virasense_image_detection\data\train\selected\mask'
 ```
-```
 ## transcript
-
+```
 import json
 import cv2
 import numpy as np

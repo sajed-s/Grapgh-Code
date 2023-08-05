@@ -21,13 +21,13 @@ Replace the json_file_path variable with the actual path to your JSON file. Upda
 
 ```
 json_file_path = r'E:\virasense_image_detection\data\train\selected\data_2.json'  # Replace with the actual path to your JSON file
-```python
+```
 Create a directory to store the generated mask images. Replace mask_dir with your desired path:
 ```
 mask_dir = r'E:\virasense_image_detection\data\train\selected\mask'
 ```
 ## transcript
-```
+```python
 import json
 import cv2
 import numpy as np

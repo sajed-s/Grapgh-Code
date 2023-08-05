@@ -11,7 +11,7 @@ This Python script allows you to generate mask images from a JSON file containin
 
 Python: Make sure you have Python installed on your system.
 OpenCV: Install OpenCV library to work with images. You can install it using pip:
-```
+```python
 pip install opencv-python
 ```
 ## Getting Started
@@ -19,11 +19,11 @@ pip install opencv-python
 Clone or download the repository containing your Python script and JSON file to your local machine.
 Replace the json_file_path variable with the actual path to your JSON file. Update the path in the line:
 
-```
+```python
 json_file_path = r'E:\virasense_image_detection\data\train\selected\data_2.json'  # Replace with the actual path to your JSON file
 ```
 Create a directory to store the generated mask images. Replace mask_dir with your desired path:
-```
+```python
 mask_dir = r'E:\virasense_image_detection\data\train\selected\mask'
 ```
 ## transcript
